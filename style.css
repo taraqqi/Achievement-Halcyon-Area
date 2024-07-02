@@ -31,6 +31,9 @@ body .container {
 #filterable-cards .card {
   width: 15rem;
   border: 2px solid transparent;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #filterable-cards .card.hide {
